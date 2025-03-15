@@ -19,9 +19,6 @@ public class main {
         Usuario usuario01 = new Usuario("Matheus", "03999999", "2006-23-05", "99999-8888", "matheus@gmail.com", admin);
         Usuario usuario02 = new Usuario("Marcos", "03999999", "2006-23-05", "99999-8888", "marcos@gmail.com", admin);
 
-        // admin.addUsuario(usuario01);
-        // admin.addUsuario(usuario02);
-
         Pais brasil = new Pais("Brasil");
         Estado saoPaulo = new Estado("São Paulo", brasil);
         Cidade spCapital = new Cidade("São Paulo", saoPaulo);
